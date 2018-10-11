@@ -10,7 +10,7 @@ body {
   font-family: 'Roboto', sans-serif;
   background:;
   position: relative;
-  font-weight:400px;
+  font-weighsdt:400px;
 }
 
 ul li {
@@ -62,6 +62,12 @@ a#scrollUp i{
   font-size: 30px;
 }
 
+/*************************
+*******Header CSS******
+**************************/
+#cart_items img{
+  height:70px;
+}
 
 /*************************
 *******Header CSS******
