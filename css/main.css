@@ -2682,3 +2682,89 @@ h2.title {
 .logo img{
   width: 12vw;
 }
+
+.verticalColumn {
+  text-align:center;
+  white-space:nowrap;
+  transform: rotate(-90deg);
+
+}
+.verticalColumn p {
+  margin:0 -100% ;
+  display:inline-block;
+}
+.verticalColumn p:before{
+  content:'';
+  width:0;
+  padding-top:110%;/* takes width as reference, + 10% for faking some extra padding */
+  display:inline-block;
+  vertical-align:middle;
+}
+
+.drone{
+  text-align: center;
+}
+
+.drone_id{
+  font-size: 2em;
+  font-weight: 700;
+  padding: 50px 0;
+}
+
+.drone_col{
+  border-right: 1px solid rgba(200,200,200, 0.5);
+}
+
+.orders_col .row{
+  margin-bottom: 10px;
+}
+
+.orders_col h4{
+  margin-bottom: 10px !important;
+}
+
+.orders_col{
+  width: 200%;
+  margin-left: 15px;
+}
+
+.order_wrapper b{
+  font-size: 24px;
+}
+
+.weight_col{
+  text-align: center;
+  vertical-align: baseline;
+}
+
+.total_weight{
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.plus_sign{
+  position: relative;
+  top: -25px;
+  left: 30px;
+}
+
+.dispatch_options{
+  text-align: center;
+}
+
+.dispatch_col{
+  text-align: center;
+}
+
+.top_drone{
+  background: rgba(254, 152, 15, 0.4);
+  color: #444444;
+
+}
+
+.top_drone .drone_col{
+  border-right: 1px solid rgba(255,255,255, 0.5);
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
