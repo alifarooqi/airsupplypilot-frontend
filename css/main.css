@@ -2573,3 +2573,7 @@ h2.title {
 .disabled{
   cursor: not-allowed;
 }
+
+.logo img{
+  width: 12vw;
+}
